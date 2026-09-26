@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "GigaCardInterfaces") (type "KiCad") (uri "${KIPRJMOD}/GigaCardInterfaces.kicad_sym") (options "") (descr "Card interfaces")) (lib (name "GigaTOLTSymbols") (type "KiCad") (uri "${KIPRJMOD}/GigaTOLTSymbols.kicad_sym") (options "") (descr "Only custom symbols used by project schematic files")))
