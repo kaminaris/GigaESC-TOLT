@@ -12469,7 +12469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GigaTOLTLibrary:CapacitorD18x32"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 			(at 230.8352 72.39 0)
 			(hide yes)
 			(show_name no)

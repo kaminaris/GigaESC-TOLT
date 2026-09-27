@@ -76,7 +76,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|130721952|109534147|27445853-a1d6-46f0-895d-222acdb8a85b|83d5b5c6-aa2e-4cbe-83ec-30b4d0d7f09d",
+          ""
+        ],
+        [
+          "silk_overlap|130721952|91334147|252ed2f7-04e9-4867-8b04-160aba901886|4535935c-c1e2-4000-a087-2079964ed55d",
+          ""
+        ],
+        [
+          "silk_overlap|159690000|109340580|999e68e3-520f-402f-a90e-2ba34e2a0980|b4c5a688-2071-4f6c-9739-089d004993f3",
+          ""
+        ],
+        [
+          "silk_overlap|159690000|91140580|4389035b-4b5c-4dbc-acdd-fb9e0c2a9df2|a2a6e4f7-58a4-4e1e-93f0-ab4d054f0d9f",
+          ""
+        ],
+        [
+          "silk_overlap|188521952|91234147|3fb82bb1-25fe-4971-a5a7-08528a4b5365|742cc0c2-a07b-48d3-b45a-6bd4e7e304be",
+          ""
+        ],
+        [
+          "silk_overlap|188590000|109340580|212dfe42-1f7c-4042-9a91-0e8f6ba733a1|2cd07d4d-8693-4348-b4bf-17aec94cff9d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -540,7 +565,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2934,
@@ -556,96 +581,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2934,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "CurrentSense",
-        "pcb_color": "rgb(0, 194, 194)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2934,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "GND",
-        "pcb_color": "rgb(132, 132, 132)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2934,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Hall",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2934,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "JTAG",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2934,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -653,32 +588,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+*V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+*REF"
-      },
-      {
-        "netclass": "Hall",
-        "pattern": "HALL(\\d+)(.*)"
-      },
-      {
-        "netclass": "CurrentSense",
-        "pattern": "CURR*"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "GND*"
-      },
-      {
-        "netclass": "JTAG",
-        "pattern": "SWDIO|SWO|SWCLK|NRST"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
