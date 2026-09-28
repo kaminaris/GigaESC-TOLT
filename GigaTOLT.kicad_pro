@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 1.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -78,27 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "silk_overlap|130721952|109534147|27445853-a1d6-46f0-895d-222acdb8a85b|83d5b5c6-aa2e-4cbe-83ec-30b4d0d7f09d",
-          ""
-        ],
-        [
-          "silk_overlap|130721952|91334147|252ed2f7-04e9-4867-8b04-160aba901886|4535935c-c1e2-4000-a087-2079964ed55d",
-          ""
-        ],
-        [
-          "silk_overlap|159690000|109340580|999e68e3-520f-402f-a90e-2ba34e2a0980|b4c5a688-2071-4f6c-9739-089d004993f3",
-          ""
-        ],
-        [
-          "silk_overlap|159690000|91140580|4389035b-4b5c-4dbc-acdd-fb9e0c2a9df2|a2a6e4f7-58a4-4e1e-93f0-ab4d054f0d9f",
-          ""
-        ],
-        [
-          "silk_overlap|188521952|91234147|3fb82bb1-25fe-4971-a5a7-08528a4b5365|742cc0c2-a07b-48d3-b45a-6bd4e7e304be",
-          ""
-        ],
-        [
-          "silk_overlap|188590000|109340580|212dfe42-1f7c-4042-9a91-0e8f6ba733a1|2cd07d4d-8693-4348-b4bf-17aec94cff9d",
+          "courtyards_overlap|201916427|97102673|ce3a6d17-7f7a-4455-af38-9522ed78a77b|f6150324-ba48-4c00-9eea-470d108bdbcd",
           ""
         ]
       ],
@@ -554,7 +534,8 @@
     ],
     "pinned_symbol_libs": [
       "GigaVescSymbols",
-      "GigaCardInterfaces"
+      "GigaCardInterfaces",
+      "GigaTOLTSymbols"
     ]
   },
   "meta": {
@@ -886,7 +867,7 @@
         "uuid": "768a484b-8a27-40cf-8cad-0f63935b1af0"
       }
     ],
-    "used_designators": "C27,C45-50,C54-55,C58,C62-66,#PWR7-15,#PWR28-37,#PWR48-49,#PWR55-63,#PWR113-115,#PWR119-121,#PWR906-938,NT2,JP3,H10-11,H13-14,#FLG9,#FLG902-904,#FLG911-912,R23,R40,R61-64,R74-76,J1-6,J31-33,J41-42,D18-19",
+    "used_designators": "C27,C45-67,C69,#PWR7-15,#PWR28-37,#PWR48-49,#PWR55-66,#PWR113-121,#PWR906-938,H10-11,H13-14,JP3,NT2,J1-6,J31-33,J41-42,#FLG9,#FLG902-904,#FLG911-912,R23,R40,R61-64,R74-76,D18-19",
     "variants": []
   },
   "sheets": [

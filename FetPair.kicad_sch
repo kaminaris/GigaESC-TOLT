@@ -1094,25 +1094,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -2699,6 +2680,17 @@
 				)
 			)
 		)
+		(property "MPN" "C113019"
+			(at 104.14 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 104.14 111.76 0)
 			(hide yes)
@@ -2887,6 +2879,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "C53987"
+			(at 128.27 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -3268,9 +3271,6 @@
 		(pin "16"
 			(uuid "dc661f6e-c837-480f-ad64-87ca546fee1c")
 		)
-		(pin "17"
-			(uuid "e18013eb-7da9-435a-9ce0-d3b2e902255b")
-		)
 		(instances
 			(project "GigaTOLT"
 				(path "/768a484b-8a27-40cf-8cad-0f63935b1af0/04d6ed87-6b10-45aa-8255-84943212068b/19425a58-22a1-48d1-abf1-a0a64dd74004"
@@ -3514,9 +3514,6 @@
 		(pin "16"
 			(uuid "f7a0fbcc-3f58-477f-af06-6129e78895fc")
 		)
-		(pin "17"
-			(uuid "89b51a4f-5075-4bc2-9cd6-d078b3d0cdf0")
-		)
 		(pin "12"
 			(uuid "9e07df55-0384-4001-9ae2-e09fcb424dfb")
 		)
@@ -3579,6 +3576,17 @@
 		)
 		(property "Value" "470@100Mhz"
 			(at 105.41 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C113019"
+			(at 105.41 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3775,6 +3783,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "C53987"
+			(at 128.27 93.9799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
